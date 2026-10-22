@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology Insights</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="zodiac iage">
+   
+        <header>
+            <h1>Astrology Insights</h1>
+            <link rel="stylesheet" href="style.css">
+        </header>
+        
+        <main>
+            <form id="astroForm">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" placeholder="Enter your first name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" placeholder="Enter your last name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="birthDate">Date of Birth</label>
+                    <div class="dob-inputs">
+                        <input type="number" id="birthDay" placeholder="DD" min="1" max="31" required>
+                        <input type="number" id="birthMonth" placeholder="MM" min="1" max="12" required>
+                        <input type="number" id="birthYear" placeholder="YYYY" min="1900" max="2024" required>
+                    </div>
+                </div>
+
+                <button type="button" id="submitButton">Submit</button>
+            </form>
+
+            <div id="result" class="result">
+                <!-- Astrology results will appear here -->
+            </div>
+        </main>
+        </div>
+
+
+<script src="./first.js"></script>
+
+
+
+</body>
+</html>
